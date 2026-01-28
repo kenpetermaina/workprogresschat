@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Data Dashboard - Created by Kennie Maina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!--Chart.js Library---->
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>KenFast WEBTECH</h1>
+        </header>
+        <div class="charts-container">
+            <div class="chart-item">
+                <canvas id="barChart"></canvas>
+                <button class="info-btn" data-chart="bar">More Info -></button>
+                <div class="info-content" id="bar-info">
+                    <h3>Monthly System Usage</h3>
+                    <p> This bar chart represents system usage activity over the past six months. It visualizes the number of user interactions recorded on the platform, including logins, data requests, and completed operations.
+                    <p>The data shows a steady increase, highlighting the effectiveness of investments in 
+                        green technology. As more countries adopt renewable energy policies.
+                    </p>
+                </div>
+            </div>
+            <div class="chart-item">
+                <canvas id="lineChart"></canvas>
+                <button class="info-btn" data-chart="line">More Info</button>
+                <div class="info-content" id="line-info">
+                    <h3>Monthly System Usage Rates</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet necessitatibus odit nobis impedit modi numquam in nesciunt enim eaque, consectetur ipsum neque magni, natus eius tempore quo tempora placeat amet?
+                    Sunt non quaerat excepturi amet aut corrupti earum, iure maxime neque ex? Quae incidunt velit asperiores aliquam, eum natus, nisi reiciendis, id iste minima cumque ratione alias quod illo quo.
+                    Laboriosam aut magnam nisi temporibus velit distinctio ea officiis at repudiandae nemo quo corrupti deleniti, odio quidem accusamus fuga obcaecati eius, dolorem itaque accusantium ad tenetur autem, excepturi pariatur! Mollitia!
+                    </p>
+                </div>
+            </div>
+            <div class="chart-item">
+                <canvas id="pieChart"></canvas>
+                <button class="info-btn" data-chart="pie">More Info -></button>
+                     <div class="info-content" id="pie-info">
+                        <h3>Renewable Energy Sources Distribution</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolor quam culpa qui cumque doloribus voluptates nam fuga eos cum. Tempore maxime debitis modi provident architecto in libero nisi minima.
+                            Ducimus non aliquam ratione sint amet iste nihil vel, in nobis rerum facere ut ad cupiditate est cumque et inventore provident quibusdam aperiam. Ut, ullam animi molestias explicabo dolorum accusamus?
+                            Molestias quidem eaque eius. Eius sunt minus excepturi amet distinctio corrupti cumque beatae, perspiciatis nisi magnam itaque nobis voluptates sit similique, laudantium autem atque! A odit voluptas facilis quidem ab.</p>
+                     </div>
+            </div>
+        </div>
+        <footer>
+            Tech for the Environment -> Created by <a href="https://www.tiktok.com/@kennietech" target="_blank">KennieFastTech</a><br>
+               Find Source Code <a href="https://www.tiktok.com/@kenniefasttech" target="_blank">@kenniefasttech</a> Tiktok
+        </footer>
+    </div>
+    <!--Modal-->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
